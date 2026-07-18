@@ -1,6 +1,5 @@
 import React from "react";
 import S from "./components/s/s.jsx";
-import S1 from "./components/s1/s1.jsx";
 
 const App = () => {
   const data = [
@@ -23,7 +22,6 @@ const App = () => {
   return (
     <>
       <S datas={data} />
-      <S1 />
     </>
   );
 };
